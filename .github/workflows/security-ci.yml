@@ -22,7 +22,7 @@ jobs:
         run: |
           docker run --rm \
             -v ${{ github.workspace }}/reports:/reports \
-            aquasec/trivy:v0.46.1 \
+            aquasec/trivy:latest \
             image --exit-code 1 --severity HIGH,CRITICAL \
             --format json --output /reports/juice-report.json \
             bkimminich/juice-shop:latest

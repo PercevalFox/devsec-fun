@@ -5,7 +5,7 @@ services:
     ports:
       - "3000:3000"
   trivy-scanner:
-    image: aquasec/trivy:v0.46.1
+    image: aquasec/trivy:latest
     depends_on:
       - juice-shop
     volumes:
