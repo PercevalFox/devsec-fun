@@ -1,0 +1,37 @@
+name: Security CI
+on:
+  push:
+    branches: [ main ]
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Docker Compose
+        run: sudo apt-get update && sudo apt-get install -y docker-compose
+      - name: Lancer Juice Shop
+        run: docker-compose up -d juice-shop
+      - name: Attendre Juice Shop
+        run: sleep 30
+      - name: Trivy Scan
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}/reports:/reports \
+            aquasec/trivy:v0.46.1 \
+            image --exit-code 1 --severity HIGH,CRITICAL \
+            --format json --output /reports/juice-report.json \
+            bkimminich/juice-shop:latest
+      - name: Upload Juice report
+        uses: actions/upload-artifact@v3
+        with:
+          name: juice-report
+          path: reports/juice-report.json
+      - name: InSpec Compliance
+        run: |
+          docker build -t inspec-test -f Dockerfile.inspec .
+          docker run --rm -v ${{ github.workspace }}/reports:/reports inspec-test
+      - name: Upload Compliance report
+        uses: actions/upload-artifact@v3
+        with:
+          name: compliance-report
+          path: reports/compliance-report.html
