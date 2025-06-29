@@ -1,0 +1,2001 @@
+{
+  "SchemaVersion": 2,
+  "CreatedAt": "2025-06-29T10:16:22.004614248Z",
+  "ArtifactName": "bkimminich/juice-shop:latest",
+  "ArtifactType": "container_image",
+  "Metadata": {
+    "Size": 439337472,
+    "OS": {
+      "Family": "debian",
+      "Name": "12.11"
+    },
+    "ImageID": "sha256:f056b7d0c127f1db8b00724c193cc4f8e2896f19a80c224dafa679d886c1d926",
+    "DiffIDs": [
+      "sha256:f464af4b9b251ebe8a7c2f186aff656f0892f6cb159837a6ce8fd63842e83e35",
+      "sha256:8fa10c0194df9b7c054c90dbe482585f768a54428fc90a5b78a0066a123b1bba",
+      "sha256:48c0fb67386ed713921fcc0468be23231d0872fa67ccc8ea3929df4656b6ddfc",
+      "sha256:4d049f83d9cf21d1f5cc0e11deaf36df02790d0e60c1a3829538fb4b61685368",
+      "sha256:af5aa97ebe6ce1604747ec1e21af7136ded391bcabe4acef882e718a87c86bcc",
+      "sha256:6f1cdceb6a3146f0ccb986521156bef8a422cdbb0863396f7f751f575ba308f4",
+      "sha256:bbb6cacb8c82e4da4e8143e03351e939eab5e21ce0ef333c42e637af86c5217b",
+      "sha256:2a92d6ac9e4fcc274d5168b217ca4458a9fec6f094ead68d99c77073f08caac1",
+      "sha256:1a73b54f556b477f0a8b939d13c504a3b4f4db71f7a09c63afbc10acb3de5849",
+      "sha256:f4aee9e53c42a22ed82451218c3ea03d1eea8d6ca8fbe8eb4e950304ba8a8bb3",
+      "sha256:bfe9137a1b044e8097cdfcb6899137a8a984ed70931ed1e8ef0cf7e023a139fc",
+      "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+      "sha256:0711ad304a055c3c5d8fa5a9dab4a1bc1463599b8618d4b8c045edce85c79ce5",
+      "sha256:7095412417d2dce289b77f7a8c632a07c82b707fe43cfef7368c3b65c8d2538a",
+      "sha256:2401c5ea32a75452bc4b02a664c80cf63f197704653926fca19e22e6cbc85652",
+      "sha256:6819a1af097df543d58dc30b51f737e55f3f42a9a04e641f175834a55bf0629c",
+      "sha256:c3abae442368dc447f15c468933843c361f227f5d87b2bb86515b49f40583ed9",
+      "sha256:1ab1eaeb158a3b03681ccef12fee177e4cd33f37fc8d4187ce69398b6f8d7158",
+      "sha256:0aa77502e1359e17c86033cc2f24f05d758957774784f939769e3496ad828eb5",
+      "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+    ],
+    "RepoTags": [
+      "bkimminich/juice-shop:latest"
+    ],
+    "RepoDigests": [
+      "bkimminich/juice-shop@sha256:51134b74c523b6779a4bf25bca021b5cfae7898b6e68f6545e8bb9e4d33ce6b0"
+    ],
+    "ImageConfig": {
+      "architecture": "amd64",
+      "created": "2025-06-16T22:23:41.068924952Z",
+      "history": [
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "0001-01-01T00:00:00Z"
+        },
+        {
+          "created": "2025-06-16T22:19:01.454173243Z",
+          "created_by": "ARG BUILD_DATE=”2025-06-16T22:18:52Z”",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-06-16T22:19:01.454173243Z",
+          "created_by": "ARG VCS_REF=ddd9cf7",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-06-16T22:19:01.454173243Z",
+          "created_by": "LABEL maintainer=Bjoern Kimminich \u003cbjoern.kimminich@owasp.org\u003e org.opencontainers.image.title=OWASP Juice Shop org.opencontainers.image.description=Probably the most modern and sophisticated insecure web application org.opencontainers.image.authors=Bjoern Kimminich \u003cbjoern.kimminich@owasp.org\u003e org.opencontainers.image.vendor=Open Worldwide Application Security Project org.opencontainers.image.documentation=https://help.owasp-juice.shop org.opencontainers.image.licenses=MIT org.opencontainers.image.version=18.0.0 org.opencontainers.image.url=https://owasp-juice.shop org.opencontainers.image.source=https://github.com/juice-shop/juice-shop org.opencontainers.image.revision=ddd9cf7 org.opencontainers.image.created=”2025-06-16T22:18:52Z”",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-06-16T22:19:01.454173243Z",
+          "created_by": "WORKDIR /juice-shop",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-06-16T22:23:41.068924952Z",
+          "created_by": "COPY --chown=65532:0 /juice-shop . # buildkit",
+          "comment": "buildkit.dockerfile.v0"
+        },
+        {
+          "created": "2025-06-16T22:23:41.068924952Z",
+          "created_by": "USER 65532",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-06-16T22:23:41.068924952Z",
+          "created_by": "EXPOSE map[3000/tcp:{}]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        },
+        {
+          "created": "2025-06-16T22:23:41.068924952Z",
+          "created_by": "CMD [\"/juice-shop/build/app.js\"]",
+          "comment": "buildkit.dockerfile.v0",
+          "empty_layer": true
+        }
+      ],
+      "os": "linux",
+      "rootfs": {
+        "type": "layers",
+        "diff_ids": [
+          "sha256:f464af4b9b251ebe8a7c2f186aff656f0892f6cb159837a6ce8fd63842e83e35",
+          "sha256:8fa10c0194df9b7c054c90dbe482585f768a54428fc90a5b78a0066a123b1bba",
+          "sha256:48c0fb67386ed713921fcc0468be23231d0872fa67ccc8ea3929df4656b6ddfc",
+          "sha256:4d049f83d9cf21d1f5cc0e11deaf36df02790d0e60c1a3829538fb4b61685368",
+          "sha256:af5aa97ebe6ce1604747ec1e21af7136ded391bcabe4acef882e718a87c86bcc",
+          "sha256:6f1cdceb6a3146f0ccb986521156bef8a422cdbb0863396f7f751f575ba308f4",
+          "sha256:bbb6cacb8c82e4da4e8143e03351e939eab5e21ce0ef333c42e637af86c5217b",
+          "sha256:2a92d6ac9e4fcc274d5168b217ca4458a9fec6f094ead68d99c77073f08caac1",
+          "sha256:1a73b54f556b477f0a8b939d13c504a3b4f4db71f7a09c63afbc10acb3de5849",
+          "sha256:f4aee9e53c42a22ed82451218c3ea03d1eea8d6ca8fbe8eb4e950304ba8a8bb3",
+          "sha256:bfe9137a1b044e8097cdfcb6899137a8a984ed70931ed1e8ef0cf7e023a139fc",
+          "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88",
+          "sha256:0711ad304a055c3c5d8fa5a9dab4a1bc1463599b8618d4b8c045edce85c79ce5",
+          "sha256:7095412417d2dce289b77f7a8c632a07c82b707fe43cfef7368c3b65c8d2538a",
+          "sha256:2401c5ea32a75452bc4b02a664c80cf63f197704653926fca19e22e6cbc85652",
+          "sha256:6819a1af097df543d58dc30b51f737e55f3f42a9a04e641f175834a55bf0629c",
+          "sha256:c3abae442368dc447f15c468933843c361f227f5d87b2bb86515b49f40583ed9",
+          "sha256:1ab1eaeb158a3b03681ccef12fee177e4cd33f37fc8d4187ce69398b6f8d7158",
+          "sha256:0aa77502e1359e17c86033cc2f24f05d758957774784f939769e3496ad828eb5",
+          "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+        ]
+      },
+      "config": {
+        "Cmd": [
+          "/juice-shop/build/app.js"
+        ],
+        "Entrypoint": [
+          "/nodejs/bin/node"
+        ],
+        "Env": [
+          "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+          "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+        ],
+        "Labels": {
+          "maintainer": "Bjoern Kimminich \u003cbjoern.kimminich@owasp.org\u003e",
+          "org.opencontainers.image.authors": "Bjoern Kimminich \u003cbjoern.kimminich@owasp.org\u003e",
+          "org.opencontainers.image.created": "”2025-06-16T22:18:52Z”",
+          "org.opencontainers.image.description": "Probably the most modern and sophisticated insecure web application",
+          "org.opencontainers.image.documentation": "https://help.owasp-juice.shop",
+          "org.opencontainers.image.licenses": "MIT",
+          "org.opencontainers.image.revision": "ddd9cf7",
+          "org.opencontainers.image.source": "https://github.com/juice-shop/juice-shop",
+          "org.opencontainers.image.title": "OWASP Juice Shop",
+          "org.opencontainers.image.url": "https://owasp-juice.shop",
+          "org.opencontainers.image.vendor": "Open Worldwide Application Security Project",
+          "org.opencontainers.image.version": "18.0.0"
+        },
+        "User": "65532",
+        "WorkingDir": "/juice-shop",
+        "ExposedPorts": {
+          "3000/tcp": {}
+        },
+        "ArgsEscaped": true
+      }
+    },
+    "Layers": [
+      {
+        "Size": 327680,
+        "Digest": "sha256:35d697fe273816c60d20a62a879f8643f79cd4ed85a8e80dba28a17350fc26b6",
+        "DiffID": "sha256:f464af4b9b251ebe8a7c2f186aff656f0892f6cb159837a6ce8fd63842e83e35"
+      },
+      {
+        "Size": 40960,
+        "Digest": "sha256:bfb59b82a9b65e47d485e53b3e815bca3b3e21a095bd0cb88ced9ac0b48062bf",
+        "DiffID": "sha256:8fa10c0194df9b7c054c90dbe482585f768a54428fc90a5b78a0066a123b1bba"
+      },
+      {
+        "Size": 2406400,
+        "Digest": "sha256:4eff9a62d888790350b2481ff4a4f38f9c94b3674d26b2f2c85ca39cdef43fd9",
+        "DiffID": "sha256:48c0fb67386ed713921fcc0468be23231d0872fa67ccc8ea3929df4656b6ddfc"
+      },
+      {
+        "Size": 1536,
+        "Digest": "sha256:a62778643d563b511190663ef9a77c30d46d282facfdce4f3a7aecc03423c1f3",
+        "DiffID": "sha256:4d049f83d9cf21d1f5cc0e11deaf36df02790d0e60c1a3829538fb4b61685368"
+      },
+      {
+        "Size": 2560,
+        "Digest": "sha256:7c12895b777bcaa8ccae0605b4de635b68fc32d60fa08f421dc3818bf55ee212",
+        "DiffID": "sha256:af5aa97ebe6ce1604747ec1e21af7136ded391bcabe4acef882e718a87c86bcc"
+      },
+      {
+        "Size": 2560,
+        "Digest": "sha256:3214acf345c0cc6bbdb56b698a41ccdefc624a09d6beb0d38b5de0b2303ecaf4",
+        "DiffID": "sha256:6f1cdceb6a3146f0ccb986521156bef8a422cdbb0863396f7f751f575ba308f4"
+      },
+      {
+        "Size": 2560,
+        "Digest": "sha256:5664b15f108bf9436ce3312090a767300800edbbfd4511aa1a6d64357024d5dd",
+        "DiffID": "sha256:bbb6cacb8c82e4da4e8143e03351e939eab5e21ce0ef333c42e637af86c5217b"
+      },
+      {
+        "Size": 1536,
+        "Digest": "sha256:0bab15eea81d0fe6ab56ebf5fba14e02c4c1775a7f7436fbddd3505add4e18fa",
+        "DiffID": "sha256:2a92d6ac9e4fcc274d5168b217ca4458a9fec6f094ead68d99c77073f08caac1"
+      },
+      {
+        "Size": 10240,
+        "Digest": "sha256:4aa0ea1413d37a58615488592a0b827ea4b2e48fa5a77cf707d0e35f025e613f",
+        "DiffID": "sha256:1a73b54f556b477f0a8b939d13c504a3b4f4db71f7a09c63afbc10acb3de5849"
+      },
+      {
+        "Size": 3072,
+        "Digest": "sha256:da7816fa955ea24533c388143c78804c28682eef99b4ee3723b548c70148bba6",
+        "DiffID": "sha256:f4aee9e53c42a22ed82451218c3ea03d1eea8d6ca8fbe8eb4e950304ba8a8bb3"
+      },
+      {
+        "Size": 241664,
+        "Digest": "sha256:ddf74a63f7d8b7d157e5db1a45675a58e304b4c1d425b05c28c835b987623395",
+        "DiffID": "sha256:bfe9137a1b044e8097cdfcb6899137a8a984ed70931ed1e8ef0cf7e023a139fc"
+      },
+      {
+        "Size": 13056000,
+        "Digest": "sha256:d00c3209d92970dad10c006c4d7120e5fd276349ce6e57dbad95a3a3f05411fc",
+        "DiffID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88"
+      },
+      {
+        "Size": 5918720,
+        "Digest": "sha256:c1e595f74d521a729b57807c995939aa172969a3d988f35ce309b8e1b3d09885",
+        "DiffID": "sha256:0711ad304a055c3c5d8fa5a9dab4a1bc1463599b8618d4b8c045edce85c79ce5"
+      },
+      {
+        "Size": 112640,
+        "Digest": "sha256:7faf0cfa885ce8ddb26aab5406226d134baa65868d7c64f0480cdc08ee0bdcf8",
+        "DiffID": "sha256:7095412417d2dce289b77f7a8c632a07c82b707fe43cfef7368c3b65c8d2538a"
+      },
+      {
+        "Size": 307200,
+        "Digest": "sha256:5b14f6c9a813108be3fe5634dde0bafbd6e6b35a9929bc6fd2e737f2e618d167",
+        "DiffID": "sha256:2401c5ea32a75452bc4b02a664c80cf63f197704653926fca19e22e6cbc85652"
+      },
+      {
+        "Size": 2334720,
+        "Digest": "sha256:33ce0b1d99fc4503f73b6b587dcb297f1c67cbade50429de5e0517d33e597583",
+        "DiffID": "sha256:6819a1af097df543d58dc30b51f737e55f3f42a9a04e641f175834a55bf0629c"
+      },
+      {
+        "Size": 143360,
+        "Digest": "sha256:f45e0372ce60322aadbddd367c04e7f2bfc9e6e20523b97e8370b8444a260efe",
+        "DiffID": "sha256:c3abae442368dc447f15c468933843c361f227f5d87b2bb86515b49f40583ed9"
+      },
+      {
+        "Size": 121661440,
+        "Digest": "sha256:a8bb57d21f11a600d41b91e4107694fe5346a243a8e03c0d5de44377c09f2148",
+        "DiffID": "sha256:1ab1eaeb158a3b03681ccef12fee177e4cd33f37fc8d4187ce69398b6f8d7158"
+      },
+      {
+        "Size": 1536,
+        "Digest": "sha256:883ffadaac7b419eb94ccbc5e36869db4d17545f2646606e99055a6c0ede32eb",
+        "DiffID": "sha256:0aa77502e1359e17c86033cc2f24f05d758957774784f939769e3496ad828eb5"
+      },
+      {
+        "Size": 292761088,
+        "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+        "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+      }
+    ]
+  },
+  "Results": [
+    {
+      "Target": "bkimminich/juice-shop:latest (debian 12.11)",
+      "Class": "os-pkgs",
+      "Type": "debian",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "CVE-2025-4802",
+          "PkgID": "libc6@2.36-9+deb12u10",
+          "PkgName": "libc6",
+          "PkgIdentifier": {
+            "PURL": "pkg:deb/debian/libc6@2.36-9%2Bdeb12u10?arch=amd64\u0026distro=debian-12.11",
+            "UID": "50653edfb1d33d1f"
+          },
+          "InstalledVersion": "2.36-9+deb12u10",
+          "Status": "affected",
+          "Layer": {
+            "Digest": "sha256:d00c3209d92970dad10c006c4d7120e5fd276349ce6e57dbad95a3a3f05411fc",
+            "DiffID": "sha256:d5a3e014161bb602d87c2312e371ad2ea6f800c7f7af261af4faa67302b53c88"
+          },
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2025-4802",
+          "DataSource": {
+            "ID": "debian",
+            "Name": "Debian Security Tracker",
+            "URL": "https://salsa.debian.org/security-tracker-team/security-tracker"
+          },
+          "Title": "glibc: static setuid binary dlopen may incorrectly search LD_LIBRARY_PATH",
+          "Description": "Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-426"
+          ],
+          "VendorSeverity": {
+            "alma": 2,
+            "amazon": 3,
+            "oracle-oval": 2,
+            "redhat": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+              "V3Score": 7
+            }
+          },
+          "References": [
+            "http://www.openwall.com/lists/oss-security/2025/05/16/7",
+            "http://www.openwall.com/lists/oss-security/2025/05/17/2",
+            "https://access.redhat.com/errata/RHSA-2025:8655",
+            "https://access.redhat.com/security/cve/CVE-2025-4802",
+            "https://bugzilla.redhat.com/2367468",
+            "https://errata.almalinux.org/9/ALSA-2025-8655.html",
+            "https://linux.oracle.com/cve/CVE-2025-4802.html",
+            "https://linux.oracle.com/errata/ELSA-2025-8686.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-4802",
+            "https://sourceware.org/bugzilla/show_bug.cgi?id=32976",
+            "https://sourceware.org/cgit/glibc/commit/?id=1e18586c5820e329f741d5c710275e165581380e",
+            "https://sourceware.org/cgit/glibc/commit/?id=5451fa962cd0a90a0e2ec1d8910a559ace02bba0",
+            "https://ubuntu.com/security/notices/USN-7541-1",
+            "https://www.cve.org/CVERecord?id=CVE-2025-4802",
+            "https://www.openwall.com/lists/oss-security/2025/05/16/7",
+            "https://www.openwall.com/lists/oss-security/2025/05/17/2"
+          ],
+          "PublishedDate": "2025-05-16T20:15:22.28Z",
+          "LastModifiedDate": "2025-06-17T14:09:23.137Z"
+        }
+      ]
+    },
+    {
+      "Target": "Node.js",
+      "Class": "lang-pkgs",
+      "Type": "node-pkg",
+      "Vulnerabilities": [
+        {
+          "VulnerabilityID": "NSWG-ECO-428",
+          "PkgID": "base64url@0.0.6",
+          "PkgName": "base64url",
+          "PkgPath": "juice-shop/node_modules/base64url/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/base64url@0.0.6",
+            "UID": "37b2d3176f8fdba9"
+          },
+          "InstalledVersion": "0.0.6",
+          "FixedVersion": "\u003e=3.0.0",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "nodejs-security-wg",
+          "PrimaryURL": "https://hackerone.com/reports/321687",
+          "DataSource": {
+            "ID": "nodejs-security-wg",
+            "Name": "Node.js Ecosystem Security Working Group",
+            "URL": "https://github.com/nodejs/security-wg"
+          },
+          "Title": "Out-of-bounds Read",
+          "Description": "`base64url` allocates uninitialized Buffers when number is passed in input on Node.js 4.x and below",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "nodejs-security-wg": 3
+          },
+          "References": [
+            "https://github.com/brianloveswords/base64url/pull/25",
+            "https://hackerone.com/reports/321687"
+          ]
+        },
+        {
+          "VulnerabilityID": "CVE-2024-4068",
+          "PkgID": "braces@2.3.2",
+          "PkgName": "braces",
+          "PkgPath": "juice-shop/node_modules/braces/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/braces@2.3.2",
+            "UID": "a453a1accd8298fb"
+          },
+          "InstalledVersion": "2.3.2",
+          "FixedVersion": "3.0.3",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-4068",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "braces: fails to limit the number of characters it can handle",
+          "Description": "The NPM package `braces`, versions prior to 3.0.3, fails to limit the number of characters it can handle, which could lead to Memory Exhaustion. In `lib/parse.js,` if a malicious user sends \"imbalanced braces\" as input, the parsing will enter a loop, which will cause the program to start allocating heap memory without freeing it at any moment of the loop. Eventually, the JavaScript heap limit is reached, and the program will crash.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-1050",
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "cbl-mariner": 3,
+            "ghsa": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-4068",
+            "https://devhub.checkmarx.com/cve-details/CVE-2024-4068",
+            "https://devhub.checkmarx.com/cve-details/CVE-2024-4068/",
+            "https://github.com/micromatch/braces",
+            "https://github.com/micromatch/braces/blob/98414f9f1fabe021736e26836d8306d5de747e0d/lib/parse.js#L308",
+            "https://github.com/micromatch/braces/commit/415d660c3002d1ab7e63dbf490c9851da80596ff",
+            "https://github.com/micromatch/braces/issues/35",
+            "https://github.com/micromatch/braces/pull/37",
+            "https://github.com/micromatch/braces/pull/40",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-4068",
+            "https://www.cve.org/CVERecord?id=CVE-2024-4068"
+          ],
+          "PublishedDate": "2024-05-14T15:42:48.66Z",
+          "LastModifiedDate": "2024-11-21T09:42:07.71Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-46233",
+          "PkgID": "crypto-js@3.3.0",
+          "PkgName": "crypto-js",
+          "PkgPath": "juice-shop/node_modules/crypto-js/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/crypto-js@3.3.0",
+            "UID": "968c6884db7b658"
+          },
+          "InstalledVersion": "3.3.0",
+          "FixedVersion": "4.2.0",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-46233",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "crypto-js: PBKDF2 1,000 times weaker than specified in 1993 and 1.3M times weaker than current standard",
+          "Description": "crypto-js is a JavaScript library of crypto standards. Prior to version 4.2.0, crypto-js PBKDF2 is 1,000 times weaker than originally specified in 1993, and at least 1,300,000 times weaker than current industry standard. This is because it both defaults to SHA1, a cryptographic hash algorithm considered insecure since at least 2005, and defaults to one single iteration, a 'strength' or 'difficulty' value specified at 1,000 when specified in 1993. PBKDF2 relies on iteration count as a countermeasure to preimage and collision attacks. If used to protect passwords, the impact is high. If used to generate signatures, the impact is high. Version 4.2.0 contains a patch for this issue. As a workaround, configure crypto-js to use SHA256 with at least 250,000 iterations.",
+          "Severity": "CRITICAL",
+          "CweIDs": [
+            "CWE-328",
+            "CWE-916",
+            "CWE-327"
+          ],
+          "VendorSeverity": {
+            "ghsa": 4,
+            "nvd": 4,
+            "redhat": 3,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+              "V3Score": 9.1
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+              "V3Score": 9.1
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+              "V3Score": 9.1
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2023-46233",
+            "https://github.com/brix/crypto-js",
+            "https://github.com/brix/crypto-js/commit/421dd538b2d34e7c24a5b72cc64dc2b9167db40a",
+            "https://github.com/brix/crypto-js/security/advisories/GHSA-xwcq-pm8m-c4vf",
+            "https://lists.debian.org/debian-lts-announce/2023/11/msg00025.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-46233",
+            "https://ubuntu.com/security/notices/USN-6753-1",
+            "https://www.cve.org/CVERecord?id=CVE-2023-46233"
+          ],
+          "PublishedDate": "2023-10-25T21:15:10.307Z",
+          "LastModifiedDate": "2024-11-21T08:28:07.867Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2020-15084",
+          "PkgID": "express-jwt@0.1.3",
+          "PkgName": "express-jwt",
+          "PkgPath": "juice-shop/node_modules/express-jwt/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/express-jwt@0.1.3",
+            "UID": "ff43a00952d1fea"
+          },
+          "InstalledVersion": "0.1.3",
+          "FixedVersion": "6.0.0",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2020-15084",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "Authorization bypass in express-jwt",
+          "Description": "In express-jwt (NPM package) up and including version 5.3.3, the algorithms entry to be specified in the configuration is not being enforced. When algorithms is not specified in the configuration, with the combination of jwks-rsa, it may lead to authorization bypass. You are affected by this vulnerability if all of the following conditions apply: - You are using express-jwt - You do not have **algorithms** configured in your express-jwt configuration. - You are using libraries such as jwks-rsa as the **secret**. You can fix this by specifying **algorithms** in the express-jwt configuration. See linked GHSA for example. This is also fixed in version 6.0.0.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-285",
+            "CWE-863"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 4
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:N",
+              "V3Score": 7.7
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+              "V2Score": 4.3,
+              "V3Score": 9.1
+            }
+          },
+          "References": [
+            "https://github.com/auth0/express-jwt/commit/7ecab5f8f0cab5297c2b863596566eb0c019cdef",
+            "https://github.com/auth0/express-jwt/security/advisories/GHSA-6g6m-m6h5-w9gf",
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-15084"
+          ],
+          "PublishedDate": "2020-06-30T16:15:15.22Z",
+          "LastModifiedDate": "2024-11-21T05:04:46.753Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2022-25881",
+          "PkgID": "http-cache-semantics@3.8.1",
+          "PkgName": "http-cache-semantics",
+          "PkgPath": "juice-shop/node_modules/http-cache-semantics/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/http-cache-semantics@3.8.1",
+            "UID": "868c747b9b0d5ddb"
+          },
+          "InstalledVersion": "3.8.1",
+          "FixedVersion": "4.1.1",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-25881",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "http-cache-semantics: Regular Expression Denial of Service (ReDoS) vulnerability",
+          "Description": "This affects versions of the package http-cache-semantics before 4.1.1. The issue can be exploited via malicious request header values sent to a server, when that server reads the cache policy from the request using this library.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-1333"
+          ],
+          "VendorSeverity": {
+            "alma": 2,
+            "amazon": 3,
+            "cbl-mariner": 3,
+            "ghsa": 3,
+            "nvd": 3,
+            "oracle-oval": 2,
+            "redhat": 2,
+            "rocky": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/errata/RHSA-2023:2655",
+            "https://access.redhat.com/security/cve/CVE-2022-25881",
+            "https://bugzilla.redhat.com/2165824",
+            "https://bugzilla.redhat.com/2168631",
+            "https://bugzilla.redhat.com/2171935",
+            "https://bugzilla.redhat.com/2172190",
+            "https://bugzilla.redhat.com/2172204",
+            "https://bugzilla.redhat.com/2172217",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2165824",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2168631",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2171935",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2172190",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2172204",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2172217",
+            "https://bugzilla.redhat.com/show_bug.cgi?id=2178076",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25881",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4904",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23918",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23920",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23936",
+            "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24807",
+            "https://errata.almalinux.org/9/ALSA-2023-2655.html",
+            "https://errata.rockylinux.org/RLSA-2023:2655",
+            "https://github.com/kornelski/http-cache-semantics",
+            "https://github.com/kornelski/http-cache-semantics/blob/master/index.js%23L83",
+            "https://github.com/kornelski/http-cache-semantics/commit/560b2d8ef452bbba20ffed69dc155d63ac757b74",
+            "https://linux.oracle.com/cve/CVE-2022-25881.html",
+            "https://linux.oracle.com/errata/ELSA-2023-2655.html",
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-25881",
+            "https://security.netapp.com/advisory/ntap-20230622-0008",
+            "https://security.netapp.com/advisory/ntap-20230622-0008/",
+            "https://security.snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-3253332",
+            "https://security.snyk.io/vuln/SNYK-JS-HTTPCACHESEMANTICS-3248783",
+            "https://www.cve.org/CVERecord?id=CVE-2022-25881"
+          ],
+          "PublishedDate": "2023-01-31T05:15:11.81Z",
+          "LastModifiedDate": "2025-03-27T18:17:13Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-29415",
+          "PkgID": "ip@2.0.1",
+          "PkgName": "ip",
+          "PkgPath": "juice-shop/node_modules/ip/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/ip@2.0.1",
+            "UID": "a4e48be5e3d2c740"
+          },
+          "InstalledVersion": "2.0.1",
+          "Status": "affected",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-29415",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "node-ip: Incomplete fix for CVE-2023-42282",
+          "Description": "The ip package through 2.0.1 for Node.js might allow SSRF because some IP addresses (such as 127.1, 01200034567, 012.1.2.3, 000:0:0000::01, and ::fFFf:127.0.0.1) are improperly categorized as globally routable via isPublic. NOTE: this issue exists because of an incomplete fix for CVE-2023-42282.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-918",
+            "CWE-941"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "redhat": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 8.1
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 9.8
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-29415",
+            "https://cosmosofcyberspace.github.io/npm_ip_cve/npm_ip_cve.html",
+            "https://github.com/indutny/node-ip",
+            "https://github.com/indutny/node-ip/issues/150",
+            "https://github.com/indutny/node-ip/pull/143",
+            "https://github.com/indutny/node-ip/pull/144",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-29415",
+            "https://security.netapp.com/advisory/ntap-20250117-0010",
+            "https://security.netapp.com/advisory/ntap-20250117-0010/",
+            "https://www.cve.org/CVERecord?id=CVE-2024-29415"
+          ],
+          "PublishedDate": "2024-05-27T20:15:08.97Z",
+          "LastModifiedDate": "2025-01-17T20:15:27.95Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2015-9235",
+          "PkgID": "jsonwebtoken@0.1.0",
+          "PkgName": "jsonwebtoken",
+          "PkgPath": "juice-shop/node_modules/express-jwt/node_modules/jsonwebtoken/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/jsonwebtoken@0.1.0",
+            "UID": "324977895803c3d7"
+          },
+          "InstalledVersion": "0.1.0",
+          "FixedVersion": "4.2.2",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2015-9235",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-jsonwebtoken: verification step bypass with an altered token",
+          "Description": "In jsonwebtoken node module before 4.2.2 it is possible for an attacker to bypass verification when a token digitally signed with an asymmetric key (RS/ES family) of algorithms but instead the attacker send a token digitally signed with a symmetric algorithm (HS* family).",
+          "Severity": "CRITICAL",
+          "CweIDs": [
+            "CWE-20",
+            "CWE-327"
+          ],
+          "VendorSeverity": {
+            "ghsa": 4,
+            "nvd": 4,
+            "redhat": 3
+          },
+          "CVSS": {
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+              "V3Vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "V2Score": 7.5,
+              "V3Score": 9.8
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "V3Score": 7.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2015-9235",
+            "https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries",
+            "https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/",
+            "https://github.com/advisories/GHSA-c7hr-j4mj-j2w6",
+            "https://github.com/auth0/node-jsonwebtoken/commit/1bb584bc382295eeb7ee8c4452a673a77a68b687",
+            "https://nodesecurity.io/advisories/17",
+            "https://nvd.nist.gov/vuln/detail/CVE-2015-9235",
+            "https://www.cve.org/CVERecord?id=CVE-2015-9235",
+            "https://www.npmjs.com/advisories/17",
+            "https://www.timmclean.net/2015/02/25/jwt-alg-none.html"
+          ],
+          "PublishedDate": "2018-05-29T20:29:00.33Z",
+          "LastModifiedDate": "2024-11-21T02:40:07.1Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2022-23539",
+          "PkgID": "jsonwebtoken@0.1.0",
+          "PkgName": "jsonwebtoken",
+          "PkgPath": "juice-shop/node_modules/express-jwt/node_modules/jsonwebtoken/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/jsonwebtoken@0.1.0",
+            "UID": "324977895803c3d7"
+          },
+          "InstalledVersion": "0.1.0",
+          "FixedVersion": "9.0.0",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-23539",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "jsonwebtoken: Unrestricted key type could lead to legacy keys usagen",
+          "Description": "Versions `\u003c=8.5.1` of `jsonwebtoken` library could be misconfigured so that legacy, insecure key types are used for signature verification. For example, DSA keys could be used with the RS256 algorithm. You are affected if you are using an algorithm and a key type other than a combination listed in the GitHub Security Advisory as unaffected. This issue has been fixed, please update to version 9.0.0. This version validates for asymmetric key type and algorithm combinations. Please refer to the above mentioned algorithm / key type combinations for the valid secure configuration. After updating to version 9.0.0, if you still intend to continue with signing or verifying tokens using invalid key type/algorithm value combinations, you’ll need to set the `allowInvalidAsymmetricKeyTypes` option  to `true` in the `sign()` and/or `verify()` functions.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-327"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+              "V3Score": 8.1
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+              "V3Score": 8.1
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+              "V3Score": 8.1
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2022-23539",
+            "https://github.com/auth0/node-jsonwebtoken",
+            "https://github.com/auth0/node-jsonwebtoken/commit/e1fa9dcc12054a8681db4e6373da1b30cf7016e3",
+            "https://github.com/auth0/node-jsonwebtoken/security/advisories/GHSA-8cf7-32gw-wr33",
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-23539",
+            "https://security.netapp.com/advisory/ntap-20240621-0007",
+            "https://security.netapp.com/advisory/ntap-20240621-0007/",
+            "https://www.cve.org/CVERecord?id=CVE-2022-23539"
+          ],
+          "PublishedDate": "2022-12-23T00:15:12.347Z",
+          "LastModifiedDate": "2024-11-21T06:48:46.303Z"
+        },
+        {
+          "VulnerabilityID": "NSWG-ECO-17",
+          "PkgID": "jsonwebtoken@0.1.0",
+          "PkgName": "jsonwebtoken",
+          "PkgPath": "juice-shop/node_modules/express-jwt/node_modules/jsonwebtoken/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/jsonwebtoken@0.1.0",
+            "UID": "324977895803c3d7"
+          },
+          "InstalledVersion": "0.1.0",
+          "FixedVersion": "\u003e=4.2.2",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "nodejs-security-wg",
+          "DataSource": {
+            "ID": "nodejs-security-wg",
+            "Name": "Node.js Ecosystem Security Working Group",
+            "URL": "https://github.com/nodejs/security-wg"
+          },
+          "Title": "Verification Bypass",
+          "Description": "It is possible for an attacker to bypass verification when \"a token digitally signed with an asymetric key (RS/ES family) of algorithms but instead the attacker send a token digitally signed with a symmetric algorithm (HS* family)\" [1]",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "nodejs-security-wg": 3
+          },
+          "References": [
+            "https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/",
+            "https://github.com/auth0/node-jsonwebtoken/commit/1bb584bc382295eeb7ee8c4452a673a77a68b687",
+            "https://www.timmclean.net/2015/02/25/jwt-alg-none.html"
+          ]
+        },
+        {
+          "VulnerabilityID": "CVE-2015-9235",
+          "PkgID": "jsonwebtoken@0.4.0",
+          "PkgName": "jsonwebtoken",
+          "PkgPath": "juice-shop/node_modules/jsonwebtoken/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/jsonwebtoken@0.4.0",
+            "UID": "b220953c826bca0"
+          },
+          "InstalledVersion": "0.4.0",
+          "FixedVersion": "4.2.2",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2015-9235",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-jsonwebtoken: verification step bypass with an altered token",
+          "Description": "In jsonwebtoken node module before 4.2.2 it is possible for an attacker to bypass verification when a token digitally signed with an asymmetric key (RS/ES family) of algorithms but instead the attacker send a token digitally signed with a symmetric algorithm (HS* family).",
+          "Severity": "CRITICAL",
+          "CweIDs": [
+            "CWE-20",
+            "CWE-327"
+          ],
+          "VendorSeverity": {
+            "ghsa": 4,
+            "nvd": 4,
+            "redhat": 3
+          },
+          "CVSS": {
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+              "V3Vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "V2Score": 7.5,
+              "V3Score": 9.8
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "V3Score": 7.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2015-9235",
+            "https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries",
+            "https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/",
+            "https://github.com/advisories/GHSA-c7hr-j4mj-j2w6",
+            "https://github.com/auth0/node-jsonwebtoken/commit/1bb584bc382295eeb7ee8c4452a673a77a68b687",
+            "https://nodesecurity.io/advisories/17",
+            "https://nvd.nist.gov/vuln/detail/CVE-2015-9235",
+            "https://www.cve.org/CVERecord?id=CVE-2015-9235",
+            "https://www.npmjs.com/advisories/17",
+            "https://www.timmclean.net/2015/02/25/jwt-alg-none.html"
+          ],
+          "PublishedDate": "2018-05-29T20:29:00.33Z",
+          "LastModifiedDate": "2024-11-21T02:40:07.1Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2022-23539",
+          "PkgID": "jsonwebtoken@0.4.0",
+          "PkgName": "jsonwebtoken",
+          "PkgPath": "juice-shop/node_modules/jsonwebtoken/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/jsonwebtoken@0.4.0",
+            "UID": "b220953c826bca0"
+          },
+          "InstalledVersion": "0.4.0",
+          "FixedVersion": "9.0.0",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-23539",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "jsonwebtoken: Unrestricted key type could lead to legacy keys usagen",
+          "Description": "Versions `\u003c=8.5.1` of `jsonwebtoken` library could be misconfigured so that legacy, insecure key types are used for signature verification. For example, DSA keys could be used with the RS256 algorithm. You are affected if you are using an algorithm and a key type other than a combination listed in the GitHub Security Advisory as unaffected. This issue has been fixed, please update to version 9.0.0. This version validates for asymmetric key type and algorithm combinations. Please refer to the above mentioned algorithm / key type combinations for the valid secure configuration. After updating to version 9.0.0, if you still intend to continue with signing or verifying tokens using invalid key type/algorithm value combinations, you’ll need to set the `allowInvalidAsymmetricKeyTypes` option  to `true` in the `sign()` and/or `verify()` functions.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-327"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+              "V3Score": 8.1
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+              "V3Score": 8.1
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+              "V3Score": 8.1
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2022-23539",
+            "https://github.com/auth0/node-jsonwebtoken",
+            "https://github.com/auth0/node-jsonwebtoken/commit/e1fa9dcc12054a8681db4e6373da1b30cf7016e3",
+            "https://github.com/auth0/node-jsonwebtoken/security/advisories/GHSA-8cf7-32gw-wr33",
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-23539",
+            "https://security.netapp.com/advisory/ntap-20240621-0007",
+            "https://security.netapp.com/advisory/ntap-20240621-0007/",
+            "https://www.cve.org/CVERecord?id=CVE-2022-23539"
+          ],
+          "PublishedDate": "2022-12-23T00:15:12.347Z",
+          "LastModifiedDate": "2024-11-21T06:48:46.303Z"
+        },
+        {
+          "VulnerabilityID": "NSWG-ECO-17",
+          "PkgID": "jsonwebtoken@0.4.0",
+          "PkgName": "jsonwebtoken",
+          "PkgPath": "juice-shop/node_modules/jsonwebtoken/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/jsonwebtoken@0.4.0",
+            "UID": "b220953c826bca0"
+          },
+          "InstalledVersion": "0.4.0",
+          "FixedVersion": "\u003e=4.2.2",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "nodejs-security-wg",
+          "DataSource": {
+            "ID": "nodejs-security-wg",
+            "Name": "Node.js Ecosystem Security Working Group",
+            "URL": "https://github.com/nodejs/security-wg"
+          },
+          "Title": "Verification Bypass",
+          "Description": "It is possible for an attacker to bypass verification when \"a token digitally signed with an asymetric key (RS/ES family) of algorithms but instead the attacker send a token digitally signed with a symmetric algorithm (HS* family)\" [1]",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "nodejs-security-wg": 3
+          },
+          "References": [
+            "https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/",
+            "https://github.com/auth0/node-jsonwebtoken/commit/1bb584bc382295eeb7ee8c4452a673a77a68b687",
+            "https://www.timmclean.net/2015/02/25/jwt-alg-none.html"
+          ]
+        },
+        {
+          "VulnerabilityID": "CVE-2016-1000223",
+          "PkgID": "jws@0.2.6",
+          "PkgName": "jws",
+          "PkgPath": "juice-shop/node_modules/jws/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/jws@0.2.6",
+            "UID": "da4a6fd70bb8e740"
+          },
+          "InstalledVersion": "0.2.6",
+          "FixedVersion": "\u003e=3.0.0",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "nodejs-security-wg",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2016-1000223",
+          "DataSource": {
+            "ID": "nodejs-security-wg",
+            "Name": "Node.js Ecosystem Security Working Group",
+            "URL": "https://github.com/nodejs/security-wg"
+          },
+          "Title": "Forgeable Public/Private Tokens",
+          "Description": "Since \"algorithm\" isn't enforced in `jws.verify()`, a malicious user could choose what algorithm is sent to the server. If the server is expecting RSA but is sent HMAC-SHA with RSA's public key, the server will think the public key is actually an HMAC private key. This could be used to forge any data an attacker wants.\n\nIn addition, there is the `none` algorithm to be concerned about.  In versions prior to 3.0.0, verification of the token could be bypassed when the `alg` field is set to `none`.\n\n*Edit ( 7/29/16 ): A previous version of this advisory incorrectly stated that the vulnerability was patched in version 2.0.0 instead of 3.0.0. The advisory has been updated to reflect this new information. Thanks to Fabien Catteau for reporting the error.*",
+          "Severity": "HIGH",
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nodejs-security-wg": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N",
+              "V3Score": 8.7
+            }
+          },
+          "References": [
+            "https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries",
+            "https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/",
+            "https://github.com/brianloveswords/node-jws",
+            "https://github.com/brianloveswords/node-jws/commit/585d0e1e97b6747c10cf5b7689ccc5618a89b299#diff-4ac32a78649ca5bdd8e0ba38b7006a1e",
+            "https://nvd.nist.gov/vuln/detail/CVE-2016-1000223",
+            "https://snyk.io/vuln/npm:jws:20160726",
+            "https://www.npmjs.com/advisories/88"
+          ]
+        },
+        {
+          "VulnerabilityID": "CVE-2019-10744",
+          "PkgID": "lodash@2.4.2",
+          "PkgName": "lodash",
+          "PkgPath": "juice-shop/node_modules/sanitize-html/node_modules/lodash/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/lodash@2.4.2",
+            "UID": "2055fc9d42487aec"
+          },
+          "InstalledVersion": "2.4.2",
+          "FixedVersion": "4.17.12",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2019-10744",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-lodash: prototype pollution in defaultsDeep function leading to modifying properties",
+          "Description": "Versions of lodash lower than 4.17.12 are vulnerable to Prototype Pollution. The function defaultsDeep could be tricked into adding or modifying properties of Object.prototype using a constructor payload.",
+          "Severity": "CRITICAL",
+          "CweIDs": [
+            "CWE-1321"
+          ],
+          "VendorSeverity": {
+            "ghsa": 4,
+            "nvd": 4,
+            "redhat": 3
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+              "V3Score": 9.1
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+              "V2Score": 6.4,
+              "V3Score": 9.1
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+              "V3Score": 9.1
+            }
+          },
+          "References": [
+            "https://access.redhat.com/errata/RHSA-2019:3024",
+            "https://access.redhat.com/security/cve/CVE-2019-10744",
+            "https://github.com/lodash/lodash/pull/4336",
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-10744",
+            "https://security.netapp.com/advisory/ntap-20191004-0005",
+            "https://security.netapp.com/advisory/ntap-20191004-0005/",
+            "https://snyk.io/vuln/SNYK-JS-LODASH-450202",
+            "https://support.f5.com/csp/article/K47105354?utm_source=f5support\u0026amp%3Butm_medium=RSS",
+            "https://support.f5.com/csp/article/K47105354?utm_source=f5support\u0026amp;utm_medium=RSS",
+            "https://www.cve.org/CVERecord?id=CVE-2019-10744",
+            "https://www.npmjs.com/advisories/1065",
+            "https://www.oracle.com/security-alerts/cpujan2021.html",
+            "https://www.oracle.com/security-alerts/cpuoct2020.html"
+          ],
+          "PublishedDate": "2019-07-26T00:15:11.217Z",
+          "LastModifiedDate": "2024-11-21T04:19:50.123Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2018-16487",
+          "PkgID": "lodash@2.4.2",
+          "PkgName": "lodash",
+          "PkgPath": "juice-shop/node_modules/sanitize-html/node_modules/lodash/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/lodash@2.4.2",
+            "UID": "2055fc9d42487aec"
+          },
+          "InstalledVersion": "2.4.2",
+          "FixedVersion": "\u003e=4.17.11",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "nodejs-security-wg",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2018-16487",
+          "DataSource": {
+            "ID": "nodejs-security-wg",
+            "Name": "Node.js Ecosystem Security Working Group",
+            "URL": "https://github.com/nodejs/security-wg"
+          },
+          "Title": "lodash: Prototype pollution in utilities function",
+          "Description": "A prototype pollution vulnerability was found in lodash \u003c4.17.11 where the functions merge, mergeWith, and defaultsDeep can be tricked into adding or modifying properties of Object.prototype.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nodejs-security-wg": 3,
+            "nvd": 2,
+            "redhat": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "nvd": {
+              "V2Vector": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "V2Score": 6.8,
+              "V3Score": 5.6
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "V3Score": 5.6
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2018-16487",
+            "https://github.com/advisories/GHSA-4xc9-xhrj-v574",
+            "https://github.com/lodash/lodash/commit/90e6199a161b6445b01454517b40ef65ebecd2ad",
+            "https://hackerone.com/reports/380873",
+            "https://nvd.nist.gov/vuln/detail/CVE-2018-16487",
+            "https://security.netapp.com/advisory/ntap-20190919-0004",
+            "https://security.netapp.com/advisory/ntap-20190919-0004/",
+            "https://www.cve.org/CVERecord?id=CVE-2018-16487",
+            "https://www.npmjs.com/advisories/782"
+          ],
+          "PublishedDate": "2019-02-01T18:29:00.943Z",
+          "LastModifiedDate": "2024-11-21T03:52:51.17Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2021-23337",
+          "PkgID": "lodash@2.4.2",
+          "PkgName": "lodash",
+          "PkgPath": "juice-shop/node_modules/sanitize-html/node_modules/lodash/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/lodash@2.4.2",
+            "UID": "2055fc9d42487aec"
+          },
+          "InstalledVersion": "2.4.2",
+          "FixedVersion": "4.17.21",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2021-23337",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-lodash: command injection via template",
+          "Description": "Lodash versions prior to 4.17.21 are vulnerable to Command Injection via the template function.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-94"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 7.2
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+              "V2Score": 6.5,
+              "V3Score": 7.2
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 7.2
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2021-23337",
+            "https://cert-portal.siemens.com/productcert/pdf/ssa-637483.pdf",
+            "https://github.com/lodash/lodash",
+            "https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js#L14851",
+            "https://github.com/lodash/lodash/blob/ddfd9b11a0126db2302cb70ec9973b66baec0975/lodash.js%23L14851",
+            "https://github.com/lodash/lodash/commit/3469357cff396a26c363f8c1b5a91dde28ba4b1c",
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-23337",
+            "https://security.netapp.com/advisory/ntap-20210312-0006",
+            "https://security.netapp.com/advisory/ntap-20210312-0006/",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGFUJIONWEBJARS-1074932",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1074930",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-1074928",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWERGITHUBLODASH-1074931",
+            "https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1074929",
+            "https://snyk.io/vuln/SNYK-JS-LODASH-1040724",
+            "https://www.cve.org/CVERecord?id=CVE-2021-23337",
+            "https://www.oracle.com//security-alerts/cpujul2021.html",
+            "https://www.oracle.com/security-alerts/cpujan2022.html",
+            "https://www.oracle.com/security-alerts/cpujul2022.html",
+            "https://www.oracle.com/security-alerts/cpuoct2021.html"
+          ],
+          "PublishedDate": "2021-02-15T13:15:12.56Z",
+          "LastModifiedDate": "2024-11-21T05:51:31.643Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2020-8203",
+          "PkgID": "lodash.set@4.3.2",
+          "PkgName": "lodash.set",
+          "PkgPath": "juice-shop/node_modules/lodash.set/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/lodash.set@4.3.2",
+            "UID": "91ab835ab813b84b"
+          },
+          "InstalledVersion": "4.3.2",
+          "Status": "affected",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2020-8203",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-lodash: prototype pollution in zipObjectDeep function",
+          "Description": "Prototype pollution attack when using _.zipObjectDeep in lodash before 4.17.20.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-770",
+            "CWE-1321"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+              "V3Score": 7.4
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+              "V2Score": 5.8,
+              "V3Score": 7.4
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+              "V3Score": 7.4
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2020-8203",
+            "https://github.com/github/advisory-database/pull/2884",
+            "https://github.com/lodash/lodash",
+            "https://github.com/lodash/lodash/commit/c84fe82760fb2d3e03a63379b297a1cc1a2fce12",
+            "https://github.com/lodash/lodash/issues/4744",
+            "https://github.com/lodash/lodash/issues/4874",
+            "https://github.com/lodash/lodash/wiki/Changelog#v41719",
+            "https://hackerone.com/reports/712065",
+            "https://hackerone.com/reports/864701",
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-8203",
+            "https://security.netapp.com/advisory/ntap-20200724-0006",
+            "https://security.netapp.com/advisory/ntap-20200724-0006/",
+            "https://web.archive.org/web/20210914001339/https://github.com/lodash/lodash/issues/4744",
+            "https://www.cve.org/CVERecord?id=CVE-2020-8203",
+            "https://www.npmjs.com/advisories/1523",
+            "https://www.oracle.com//security-alerts/cpujul2021.html",
+            "https://www.oracle.com/security-alerts/cpuApr2021.html",
+            "https://www.oracle.com/security-alerts/cpuapr2022.html",
+            "https://www.oracle.com/security-alerts/cpujan2022.html",
+            "https://www.oracle.com/security-alerts/cpuoct2021.html"
+          ],
+          "PublishedDate": "2020-07-15T17:15:11.797Z",
+          "LastModifiedDate": "2024-11-21T05:38:29.79Z"
+        },
+        {
+          "VulnerabilityID": "GHSA-5mrr-rgp6-x4gr",
+          "PkgID": "marsdb@0.6.11",
+          "PkgName": "marsdb",
+          "PkgPath": "juice-shop/node_modules/marsdb/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/marsdb@0.6.11",
+            "UID": "54edd9a172aae6f9"
+          },
+          "InstalledVersion": "0.6.11",
+          "Status": "affected",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://github.com/advisories/GHSA-5mrr-rgp6-x4gr",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "Command Injection in marsdb",
+          "Description": "All versions of `marsdb` are vulnerable to Command Injection. In the `DocumentMatcher` class, selectors on `$where` clauses are passed to a Function constructor unsanitized. This allows attackers to run arbitrary commands in the system when the function is executed.\n\n\n## Recommendation\n\nNo fix is currently available. Consider using an alternative package until a fix is made available.",
+          "Severity": "CRITICAL",
+          "VendorSeverity": {
+            "ghsa": 4
+          },
+          "References": [
+            "https://github.com/bkimminich/juice-shop/issues/1173",
+            "https://www.npmjs.com/advisories/1122"
+          ],
+          "PublishedDate": "2020-09-03T19:39:05Z",
+          "LastModifiedDate": "2020-08-31T18:48:01Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2017-18214",
+          "PkgID": "moment@2.0.0",
+          "PkgName": "moment",
+          "PkgPath": "juice-shop/node_modules/express-jwt/node_modules/moment/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/moment@2.0.0",
+            "UID": "83a43873d3018a1f"
+          },
+          "InstalledVersion": "2.0.0",
+          "FixedVersion": "2.19.3",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2017-18214",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-moment: Regular expression denial of service",
+          "Description": "The moment module before 2.19.3 for Node.js is prone to a regular expression denial of service via a crafted date string, a different vulnerability than CVE-2016-4055.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-400"
+          ],
+          "VendorSeverity": {
+            "azure": 3,
+            "cbl-mariner": 3,
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 2,
+            "ubuntu": 1
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V2Score": 5,
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2017-18214",
+            "https://github.com/advisories/GHSA-446m-mv8f-q348",
+            "https://github.com/moment/moment",
+            "https://github.com/moment/moment/commit/69ed9d44957fa6ab12b73d2ae29d286a857b80eb",
+            "https://github.com/moment/moment/issues/4163",
+            "https://github.com/moment/moment/pull/4326",
+            "https://nodesecurity.io/advisories/532",
+            "https://nvd.nist.gov/vuln/detail/CVE-2017-18214",
+            "https://ubuntu.com/security/notices/USN-4786-1",
+            "https://www.cve.org/CVERecord?id=CVE-2017-18214",
+            "https://www.npmjs.com/advisories/532",
+            "https://www.tenable.com/security/tns-2019-02"
+          ],
+          "PublishedDate": "2018-03-04T21:29:00.23Z",
+          "LastModifiedDate": "2024-11-21T03:19:35.133Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2022-24785",
+          "PkgID": "moment@2.0.0",
+          "PkgName": "moment",
+          "PkgPath": "juice-shop/node_modules/express-jwt/node_modules/moment/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/moment@2.0.0",
+            "UID": "83a43873d3018a1f"
+          },
+          "InstalledVersion": "2.0.0",
+          "FixedVersion": "2.29.2",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-24785",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "Moment.js: Path traversal  in moment.locale",
+          "Description": "Moment.js is a JavaScript date library for parsing, validating, manipulating, and formatting dates. A path traversal vulnerability impacts npm (server) users of Moment.js between versions 1.0.1 and 2.29.1, especially if a user-provided locale string is directly used to switch moment locale. This problem is patched in 2.29.2, and the patch can be applied to all affected versions. As a workaround, sanitize the user-provided locale name before passing it to Moment.js.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-22",
+            "CWE-27"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 2,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "V3Score": 7.5
+            },
+            "nvd": {
+              "V2Vector": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "V2Score": 5,
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "V3Score": 7.5
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2022-24785",
+            "https://github.com/moment/moment",
+            "https://github.com/moment/moment/commit/4211bfc8f15746be4019bba557e29a7ba83d54c5",
+            "https://github.com/moment/moment/security/advisories/GHSA-8hfj-j24r-96c4",
+            "https://lists.debian.org/debian-lts-announce/2023/01/msg00035.html",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6QIO6YNLTK2T7SPKDS4JEL45FANLNC2Q/",
+            "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORJX2LF6KMPIHP6B2P6KZIVKMLE3LVJ5/",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6QIO6YNLTK2T7SPKDS4JEL45FANLNC2Q",
+            "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ORJX2LF6KMPIHP6B2P6KZIVKMLE3LVJ5",
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-24785",
+            "https://security.netapp.com/advisory/ntap-20220513-0006",
+            "https://security.netapp.com/advisory/ntap-20220513-0006/",
+            "https://ubuntu.com/security/notices/USN-5559-1",
+            "https://www.cve.org/CVERecord?id=CVE-2022-24785",
+            "https://www.tenable.com/security/tns-2022-09"
+          ],
+          "PublishedDate": "2022-04-04T17:15:07.583Z",
+          "LastModifiedDate": "2024-11-21T06:51:05.483Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2022-25887",
+          "PkgID": "sanitize-html@1.4.2",
+          "PkgName": "sanitize-html",
+          "PkgPath": "juice-shop/node_modules/sanitize-html/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/sanitize-html@1.4.2",
+            "UID": "dba6e401aaa6d720"
+          },
+          "InstalledVersion": "1.4.2",
+          "FixedVersion": "2.7.1",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2022-25887",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "sanitize-html: insecure global regular expression replacement logic may lead to ReDoS",
+          "Description": "The package sanitize-html before 2.7.1 are vulnerable to Regular Expression Denial of Service (ReDoS) due to insecure global regular expression replacement logic of HTML comment removal.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-1333"
+          ],
+          "VendorSeverity": {
+            "ghsa": 3,
+            "nvd": 3,
+            "redhat": 1,
+            "ubuntu": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "V3Score": 5.3
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2022-25887",
+            "https://github.com/apostrophecms/sanitize-html/commit/b4682c12fd30e12e82fa2d9b766de91d7d2cd23c",
+            "https://github.com/apostrophecms/sanitize-html/pull/557",
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-25887",
+            "https://security.snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-3008102",
+            "https://security.snyk.io/vuln/SNYK-JS-SANITIZEHTML-2957526",
+            "https://ubuntu.com/security/notices/USN-7464-1",
+            "https://www.cve.org/CVERecord?id=CVE-2022-25887"
+          ],
+          "PublishedDate": "2022-08-30T05:15:07.727Z",
+          "LastModifiedDate": "2024-11-21T06:53:09.953Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-32314",
+          "PkgID": "vm2@3.9.17",
+          "PkgName": "vm2",
+          "PkgPath": "juice-shop/node_modules/vm2/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/vm2@3.9.17",
+            "UID": "76ba5b4eb1192b4e"
+          },
+          "InstalledVersion": "3.9.17",
+          "FixedVersion": "3.9.18",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-32314",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "vm2: Sandbox Escape",
+          "Description": "vm2 is a sandbox that can run untrusted code with Node's built-in modules. A sandbox escape vulnerability exists in vm2 for versions up to and including 3.9.17. It abuses an unexpected creation of a host object based on the specification of `Proxy`. As a result a threat actor can bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version `3.9.18` of `vm2`. Users are advised to upgrade. There are no known workarounds for this vulnerability.",
+          "Severity": "CRITICAL",
+          "CweIDs": [
+            "CWE-74"
+          ],
+          "VendorSeverity": {
+            "ghsa": 4,
+            "nvd": 4,
+            "redhat": 4
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 9.8
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+              "V3Score": 10
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 9.8
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2023-32314",
+            "https://gist.github.com/arkark/e9f5cf5782dec8321095be3e52acf5ac",
+            "https://github.com/patriksimek/vm2",
+            "https://github.com/patriksimek/vm2/commit/d88105f99752305c5b8a77b63ddee3ec86912daf",
+            "https://github.com/patriksimek/vm2/releases/tag/3.9.18",
+            "https://github.com/patriksimek/vm2/security/advisories/GHSA-whpj-8f3w-67p5",
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-32314",
+            "https://www.cve.org/CVERecord?id=CVE-2023-32314"
+          ],
+          "PublishedDate": "2023-05-15T20:15:09.177Z",
+          "LastModifiedDate": "2024-11-21T08:03:05.643Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-37466",
+          "PkgID": "vm2@3.9.17",
+          "PkgName": "vm2",
+          "PkgPath": "juice-shop/node_modules/vm2/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/vm2@3.9.17",
+            "UID": "76ba5b4eb1192b4e"
+          },
+          "InstalledVersion": "3.9.17",
+          "Status": "affected",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-37466",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "vm2: Promise handler sanitization can be bypassed allowing attackers to escape the sandbox and run arbitrary code",
+          "Description": "vm2 is an advanced vm/sandbox for Node.js. The library contains critical security issues and should not be used for production. The maintenance of the project has been discontinued. In vm2 for versions up to 3.9.19, `Promise` handler sanitization can be bypassed with the `@@species` accessor property allowing attackers to escape the sandbox and run arbitrary code, potentially allowing remote code execution inside the context of vm2 sandbox.",
+          "Severity": "CRITICAL",
+          "CweIDs": [
+            "CWE-94"
+          ],
+          "VendorSeverity": {
+            "ghsa": 4,
+            "nvd": 4,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 9.8
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+              "V3Score": 10
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 9.8
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2023-37466",
+            "https://gist.github.com/leesh3288/f693061e6523c97274ad5298eb2c74e9",
+            "https://github.com/patriksimek/vm2",
+            "https://github.com/patriksimek/vm2/security/advisories/GHSA-cchq-frgv-rjh5",
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-37466",
+            "https://security.netapp.com/advisory/ntap-20230831-0007",
+            "https://www.cve.org/CVERecord?id=CVE-2023-37466"
+          ],
+          "PublishedDate": "2023-07-14T00:15:09.263Z",
+          "LastModifiedDate": "2024-11-21T08:11:45.92Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2023-37903",
+          "PkgID": "vm2@3.9.17",
+          "PkgName": "vm2",
+          "PkgPath": "juice-shop/node_modules/vm2/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/vm2@3.9.17",
+            "UID": "76ba5b4eb1192b4e"
+          },
+          "InstalledVersion": "3.9.17",
+          "Status": "affected",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2023-37903",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "vm2: custom inspect function allows attackers to escape the sandbox and run arbitrary code",
+          "Description": "vm2 is an open source vm/sandbox for Node.js. In vm2 for versions up to and including 3.9.19, Node.js custom inspect function allows attackers to escape the sandbox and run arbitrary code. This may result in Remote Code Execution, assuming the attacker has arbitrary code execution primitive inside the context of vm2 sandbox. There are no patches and no known workarounds. Users are advised to find an alternative software.",
+          "Severity": "CRITICAL",
+          "CweIDs": [
+            "CWE-78"
+          ],
+          "VendorSeverity": {
+            "ghsa": 4,
+            "nvd": 4,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 9.8
+            },
+            "nvd": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+              "V3Score": 10
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "V3Score": 9.8
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2023-37903",
+            "https://github.com/patriksimek/vm2",
+            "https://github.com/patriksimek/vm2/security/advisories/GHSA-g644-9gfx-q4q4",
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-37903",
+            "https://security.netapp.com/advisory/ntap-20230831-0007",
+            "https://security.netapp.com/advisory/ntap-20230831-0007/",
+            "https://www.cve.org/CVERecord?id=CVE-2023-37903"
+          ],
+          "PublishedDate": "2023-07-21T20:15:16.057Z",
+          "LastModifiedDate": "2024-11-21T08:12:26.023Z"
+        },
+        {
+          "VulnerabilityID": "CVE-2024-37890",
+          "PkgID": "ws@7.4.6",
+          "PkgName": "ws",
+          "PkgPath": "juice-shop/node_modules/engine.io/node_modules/ws/package.json",
+          "PkgIdentifier": {
+            "PURL": "pkg:npm/ws@7.4.6",
+            "UID": "99c0e0e6dc5ddca1"
+          },
+          "InstalledVersion": "7.4.6",
+          "FixedVersion": "5.2.4, 6.2.3, 7.5.10, 8.17.1",
+          "Status": "fixed",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064"
+          },
+          "SeveritySource": "ghsa",
+          "PrimaryURL": "https://avd.aquasec.com/nvd/cve-2024-37890",
+          "DataSource": {
+            "ID": "ghsa",
+            "Name": "GitHub Security Advisory npm",
+            "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm"
+          },
+          "Title": "nodejs-ws: denial of service when handling a request with many HTTP headers",
+          "Description": "ws is an open source WebSocket client and server for Node.js. A request with a number of headers exceeding theserver.maxHeadersCount threshold could be used to crash a ws server. The vulnerability was fixed in ws@8.17.1 (e55e510) and backported to ws@7.5.10 (22c2876), ws@6.2.3 (eeb76d3), and ws@5.2.4 (4abd8f6). In vulnerable versions of ws, the issue can be mitigated in the following ways: 1. Reduce the maximum allowed length of the request headers using the --max-http-header-size=size and/or the maxHeaderSize options so that no more headers than the server.maxHeadersCount limit can be sent. 2. Set server.maxHeadersCount to 0 so that no limit is applied.",
+          "Severity": "HIGH",
+          "CweIDs": [
+            "CWE-476"
+          ],
+          "VendorSeverity": {
+            "cbl-mariner": 3,
+            "ghsa": 3,
+            "redhat": 2
+          },
+          "CVSS": {
+            "ghsa": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 7.5
+            },
+            "redhat": {
+              "V3Vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "V3Score": 5.9
+            }
+          },
+          "References": [
+            "https://access.redhat.com/security/cve/CVE-2024-37890",
+            "https://github.com/websockets/ws",
+            "https://github.com/websockets/ws/commit/22c28763234aa75a7e1b76f5c01c181260d7917f",
+            "https://github.com/websockets/ws/commit/4abd8f6de4b0b65ef80b3ff081989479ed93377e",
+            "https://github.com/websockets/ws/commit/e55e5106f10fcbaac37cfa89759e4cc0d073a52c",
+            "https://github.com/websockets/ws/commit/eeb76d313e2a00dd5247ca3597bba7877d064a63",
+            "https://github.com/websockets/ws/issues/2230",
+            "https://github.com/websockets/ws/pull/2231",
+            "https://github.com/websockets/ws/security/advisories/GHSA-3h5v-q93c-6h6q",
+            "https://nodejs.org/api/http.html#servermaxheaderscount",
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-37890",
+            "https://www.cve.org/CVERecord?id=CVE-2024-37890"
+          ],
+          "PublishedDate": "2024-06-17T20:15:13.203Z",
+          "LastModifiedDate": "2024-11-21T09:24:28.81Z"
+        }
+      ]
+    },
+    {
+      "Target": "/juice-shop/build/lib/insecurity.js",
+      "Class": "secret",
+      "Secrets": [
+        {
+          "RuleID": "private-key",
+          "Category": "AsymmetricPrivateKey",
+          "Severity": "HIGH",
+          "Title": "Asymmetric Private Key",
+          "StartLine": 47,
+          "EndLine": 47,
+          "Code": {
+            "Lines": [
+              {
+                "Number": 45,
+                "Content": "const z85 = __importStar(require(\"z85\"));",
+                "IsCause": false,
+                "Annotation": "",
+                "Truncated": false,
+                "Highlighted": "const z85 = __importStar(require(\"z85\"));",
+                "FirstCause": false,
+                "LastCause": false
+              },
+              {
+                "Number": 46,
+                "Content": "exports.publicKey = node_fs_1.default ? node_fs_1.default.readFileSync('encryptionkeys/jwt.pub', 'ut",
+                "IsCause": false,
+                "Annotation": "",
+                "Truncated": false,
+                "Highlighted": "exports.publicKey = node_fs_1.default ? node_fs_1.default.readFileSync('encryptionkeys/jwt.pub', 'ut",
+                "FirstCause": false,
+                "LastCause": false
+              },
+              {
+                "Number": 47,
+                "Content": "----BEGIN RSA PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END RSA PRIVATE",
+                "IsCause": true,
+                "Annotation": "",
+                "Truncated": false,
+                "Highlighted": "----BEGIN RSA PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END RSA PRIVATE",
+                "FirstCause": true,
+                "LastCause": true
+              },
+              {
+                "Number": 48,
+                "Content": "const hash = (data) =\u003e node_crypto_1.default.createHash('md5').update(data).digest('hex');",
+                "IsCause": false,
+                "Annotation": "",
+                "Truncated": false,
+                "Highlighted": "const hash = (data) =\u003e node_crypto_1.default.createHash('md5').update(data).digest('hex');",
+                "FirstCause": false,
+                "LastCause": false
+              }
+            ]
+          },
+          "Match": "----BEGIN RSA PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END RSA PRIVATE",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064",
+            "CreatedBy": "COPY --chown=65532:0 /juice-shop . # buildkit"
+          }
+        }
+      ]
+    },
+    {
+      "Target": "/juice-shop/frontend/src/app/app.guard.spec.ts",
+      "Class": "secret"
+    },
+    {
+      "Target": "/juice-shop/frontend/src/app/last-login-ip/last-login-ip.component.spec.ts",
+      "Class": "secret"
+    },
+    {
+      "Target": "/juice-shop/lib/insecurity.ts",
+      "Class": "secret",
+      "Secrets": [
+        {
+          "RuleID": "private-key",
+          "Category": "AsymmetricPrivateKey",
+          "Severity": "HIGH",
+          "Title": "Asymmetric Private Key",
+          "StartLine": 23,
+          "EndLine": 23,
+          "Code": {
+            "Lines": [
+              {
+                "Number": 21,
+                "Content": "",
+                "IsCause": false,
+                "Annotation": "",
+                "Truncated": false,
+                "FirstCause": false,
+                "LastCause": false
+              },
+              {
+                "Number": 22,
+                "Content": "export const publicKey = fs ? fs.readFileSync('encryptionkeys/jwt.pub', 'utf8') : 'placeholder-publi",
+                "IsCause": false,
+                "Annotation": "",
+                "Truncated": false,
+                "Highlighted": "export const publicKey = fs ? fs.readFileSync('encryptionkeys/jwt.pub', 'utf8') : 'placeholder-publi",
+                "FirstCause": false,
+                "LastCause": false
+              },
+              {
+                "Number": 23,
+                "Content": "----BEGIN RSA PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END RSA PRIVATE",
+                "IsCause": true,
+                "Annotation": "",
+                "Truncated": false,
+                "Highlighted": "----BEGIN RSA PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END RSA PRIVATE",
+                "FirstCause": true,
+                "LastCause": true
+              },
+              {
+                "Number": 24,
+                "Content": "",
+                "IsCause": false,
+                "Annotation": "",
+                "Truncated": false,
+                "FirstCause": false,
+                "LastCause": false
+              }
+            ]
+          },
+          "Match": "----BEGIN RSA PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END RSA PRIVATE",
+          "Layer": {
+            "Digest": "sha256:dcc354d5cbbda91dc30445d7cda0d5b6dd41b1e29a831bd181b2a32f3a767f24",
+            "DiffID": "sha256:bac7c40da134f20b378539abded696a1ab7a4fe4aada4ae9c6150df15334c064",
+            "CreatedBy": "COPY --chown=65532:0 /juice-shop . # buildkit"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-FROM inspec/inspec:4.39.11
+FROM chef/inspec:latest
 WORKDIR /workspace
 COPY scripts/compliance.sh /scripts/compliance.sh
 RUN chmod +x /scripts/compliance.sh
